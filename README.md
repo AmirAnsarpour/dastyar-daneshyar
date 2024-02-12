@@ -6,5 +6,6 @@
 - امکان سرچ همزمان چند درس با سرعت بیشتر بدون نیاز به تبدیل اسم درس
 - تیک زدن خودکار ارزیابی اساتید
 <img width="170%" src="https://raw.githubusercontent.com/aidin-rezaei/aidin-rezaei/main/Screenshot%202024-02-02%20045633.png">
+
 - تغییرات کوچیک ظاهری
-<img src="images/img.png">
+<img align="center" src="images/img.png">

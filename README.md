@@ -7,6 +7,7 @@
 - تیک زدن خودکار ارزیابی اساتید
 <img width="170%" src="https://raw.githubusercontent.com/aidin-rezaei/aidin-rezaei/main/Screenshot%202024-02-02%20045633.png">
 
++
 - تغییرات کوچیک ظاهری
 <div align="center">
 <img align="center" src="images/img.png">

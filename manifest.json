@@ -1,22 +1,20 @@
 {
-    "manifest_version": 2,
-    "name": "دستیار آموزشیار",
-    "version": "1.1",
-    "description": "با این ابزار میتوانید از حالت دارک مود آموزشیار استفاده کنید، ارزیابی اساتید رو بصورت خودکار انجام دهید و بصورت همزمان چند درس را در درس های ارائه شده جستجو کنید.",
-    "permissions": [
-      "activeTab"
-  ],
-    "browser_action": {
-      "default_icon": {
-        "48": "logo.png"
-      },
-      "default_title": "دستیار آموزشیار",
-      "default_popup": "popup.html"
+  "manifest_version": 2,
+  "name": "دستیار آموزشیار",
+  "version": "1.1",
+  "description": "با این ابزار میتوانید از حالت دارک مود آموزشیار استفاده کنید، ارزیابی اساتید رو بصورت خودکار انجام دهید و بصورت همزمان چند درس را در درس های ارائه شده جستجو کنید.",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_icon": {
+      "48": "images/logo.png"
     },
-    "content_scripts": [
-      {
-        "matches": ["<all_urls>"],
-        "js": ["content.js"]
-      }
-    ]
-  }
+    "default_title": "دستیار آموزشیار",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/content.js"]
+    }
+  ]
+}

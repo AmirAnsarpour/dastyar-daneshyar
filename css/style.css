@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 300px;
+    direction: rtl;
+    background: #374763;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Vazirmatn', sans-serif;
+    color: #fff;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 10px;
+    background: #ffffff92;
+    padding: 4px;
+    margin: 4px 0;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Vazirmatn', sans-serif;
+    border: none;
+    outline: none;
+}
+
+::placeholder {
+    color: #000;
+    opacity: 1;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+button {
+    width: 100%;
+    background: #fff;
+    padding: 2px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Vazirmatn', sans-serif;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+button:hover {
+    background: #bababa;
+}
+
+p {
+    width: 100%;
+    padding: 4px 0;
+    text-align: center;
+}
+
+p a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#loadTime {
+    width: 100%;
+    font-size: 15px;
+    color: #fff;
+    text-align: right;
+}
+
+#loadTime p {
+    text-align: right;
+}
+
+#loadTime p a {
+    text-decoration: none;
+}
+
+.red {
+    color: rgb(255, 0, 0);
+}
+
+.green {
+    color: rgb(0, 255, 0);
+}
+
+.flex {
+    gap: 4px;
+    display: flex;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+    max-height: 200px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 30px;
+    height: 50px;
+}
+
+.logo h3 {
+    text-align: center;
+    display: inline;
+    padding-bottom: 10px;
+}
